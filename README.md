@@ -96,8 +96,13 @@ mongoimport --type json -d uk_food -c establishments --drop --jsonArray establis
     - Execute each cell in the notebook to perform data analysis and get answers to the following questions:
       - 1. Which establishments have a hygiene score equal to 20?
       - 2. Which establishments in London have a `RatingValue` greater than or equal to 4?
+  
+          ![data_frame](Images/data_frame.png)
+
       - 3. What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
       - 4. How many establishments in each Local Authority area have a hygiene score of 0?
+
+          ![top10_est](Images/top10_est.png)
 
 
 ## License
